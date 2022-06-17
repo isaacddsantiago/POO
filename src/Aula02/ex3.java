@@ -1,7 +1,7 @@
 package Aula02;
 import java.util.Scanner;
 
-public class ex3 {
+public class Ex3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Quantidade(Kg)");
@@ -11,7 +11,7 @@ public class ex3 {
         double Q = M * (finalTemperature - initialTemperature) * 4184;
         System.out.print(Q);
         
-
+        sc.close();
 
 
     }
