@@ -73,5 +73,7 @@ public class Ex1 {
 
 			System.out.println();
 		} while (input != 0);
+
+		sc.close();
 	}
 }
